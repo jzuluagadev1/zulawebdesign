@@ -95,6 +95,17 @@ figcaption {
   outline: 0;
 }
 
+body, html {
+  overflow: visible;
+}
+
+#js-preloader {
+  display: none; /* o visibility: hidden; */
+}
+
+
+
+
 /* clear fix */
 .grid:after {
   content: "";
@@ -208,7 +219,7 @@ p {
 
 img {
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .logo {
@@ -246,7 +257,7 @@ body {
 @media (max-width: 991px) {
   html,
   body {
-    overflow-x: hidden;
+    overflow-x: visible;
   }
   .mobile-top-fix {
     margin-top: 30px;
@@ -530,7 +541,7 @@ header
   position: absolute;
   width: 200px;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  overflow: hidden;
+  overflow: visible;
   top: 50px;
   opacity: 0;
   transform: translateY(+2em);
@@ -762,7 +773,7 @@ header
     display: block !important;
   }
   .header-area .main-nav {
-    overflow: hidden;
+    overflow: visible;
   }
   .header-area .main-nav .nav {
     float: none;
@@ -954,7 +965,7 @@ Banner Style
   background-size: cover;
   padding: 236px 0px 130px 0px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .main-banner:after {
