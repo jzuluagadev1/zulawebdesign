@@ -115,6 +115,7 @@ body, html {
 
 .item {
   text-align: center;
+  margin: 20px auto; /* Añade separación adicional */
 }
 
 textarea {
